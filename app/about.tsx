@@ -25,11 +25,13 @@ const About = () => {
           </p>
 
           <div className="pt-4 space-x-3">
-            <Button
-              variant='secondary'
-            >
-              Contact Us
-            </Button>
+            <Link to={'/contact'}>
+              <Button
+                variant='secondary'
+              >
+                Contact Us
+              </Button>
+            </Link>
 
             <Link to={'/'}>
               <Button
